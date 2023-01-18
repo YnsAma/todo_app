@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  height: 54px;
+}
+.duo{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.noti-dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 90px;
+  background-color: #F5A521;
+  margin-right: 6px;
+  
+  box-shadow:
+    0 0 5px #F5A521,
+    0 0 14px 3px #d59d43;
+    /* 0 0 140px 5px #F5A521; */
+  
+}
+.duo h4{
+  color:#7E7EA5;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.ligth-mode{
+  /* border: solid 0.5px #7E7EA5 ; */
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+  padding: 5px;
+}
+.ligth-mode>*{
+  color: var(--header-icons-color);
+  font-size: 25px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  
+}
+.ligth-mode>*:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}

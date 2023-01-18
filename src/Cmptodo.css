@@ -1,0 +1,27 @@
+.cmptodo-card {
+  background-color: var(--secondary-background);
+  width: 340px;
+  min-height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+.cmptodo-body {
+  color: var(--text-secondary);
+  text-decoration: line-through;
+  max-width: 236px;
+  word-wrap: break-word;
+}
+.cmpbutton {
+  padding: 0px;
+  background-color: #d7f9d1;
+}
+.icon {
+  color: #269b5b;
+  width: 20px;
+  height: 21px;
+  font-weight: bolder;
+}

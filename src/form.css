@@ -1,0 +1,36 @@
+.add-item-container {
+  width: 326px;
+  height: 42px;
+  border-radius: 26px !important;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--input-background);
+  margin-bottom: 15px;
+  border-radius: 6px;
+  align-items: center;
+  padding-left: 19px !important;
+}
+.item-body {
+  border: none;
+  background-color: var(--input-background);
+  width: 285px;
+  outline: none;
+  height: 40px;
+  color: var(--text-primary);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+}
+input::placeholder {
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+.add-item-button {
+  background-color: white;
+}
+.add-item-icon {
+  color: var(--font-color);
+  font-size: 36px;
+  width: 40px;
+  height: 40px;
+  transform: translate(-29%, -24%);
+}

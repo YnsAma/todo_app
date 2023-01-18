@@ -1,0 +1,36 @@
+.app-container{
+  width: 340px;
+  height: fit-content;
+  background-color: var(--background);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 15px;
+  padding-top: 0!important;
+  margin-top: 1rem;
+}
+p{
+  color: var(--text-primary);
+  font-weight: bolder;
+  padding-left: 15px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 700px;
+}
+hr{
+  border: solid 0.5px var(--border-color);
+}
+
+.alert-body {
+  animation: popout 1s ease;
+  -webkit-animation: popout 1s ease;
+}
+@keyframes popout {
+  from{transform:scale(0)}
+  80%{transform:scale(1.2)}
+  to{transform:scale(1)}
+}
+@-webkit-keyframes popout {
+  from{-webkit-transform:scale(0)}
+  80%{-webkit-transform:scale(1.2)}
+  to{-webkit-transform:scale(1)}
+}

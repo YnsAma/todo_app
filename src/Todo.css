@@ -1,0 +1,48 @@
+button {
+  width: 21px;
+  height: 21px;
+  border-radius: 90%;
+  outline: none;
+  background-color: #ffffff;
+  border: none;
+  margin: 15px;
+}
+.todo-mark-button {
+  border: 0.5px solid var(--border-color);
+}
+button:hover {
+  cursor: pointer;
+}
+.todo-card {
+  width: 340px;
+  min-height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-background);
+  margin-bottom: 8px;
+  border-radius: 6px;
+  padding-bottom: 6px;
+  padding-top: 1px;
+}
+.todo-duo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.todo-body {
+  max-width: 236px;
+  color: var(--text-primary);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.delet-button {
+  background-color: transparent;
+}
+.delet-icon {
+  color: var(--delet-font-color);
+  font-size: 30px;
+  transform: translate(-40%, -15%);
+}
